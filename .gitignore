@@ -1,3 +1,6 @@
+# Lighthouse Report
+*.html
+
 # Logs
 logs
 *.log
