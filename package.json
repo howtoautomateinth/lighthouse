@@ -1,0 +1,23 @@
+{
+  "name": "lighthouse-extensions",
+  "version": "1.0.0",
+  "description": "sample of lighthouse extensions",
+  "main": "custom-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:lighthouse": "lighthouse --config-path=.\\custom-config.js http://www.howtoautomate.in.th --view"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howtoautomateinth/lighthouse-extensions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howtoautomateinth/lighthouse-extensions/issues"
+  },
+  "homepage": "https://github.com/howtoautomateinth/lighthouse-extensions#readme",
+  "devDependencies": {
+    "lighthouse": "^5.1.0"
+  }
+}
